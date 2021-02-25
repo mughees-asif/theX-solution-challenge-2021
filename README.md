@@ -3,6 +3,7 @@
 ## Installation Guide [WINDOWS]
 
 * Install **[Node.js](https://nodejs.org/en/download/)** 
+* Clone the repository to your local machine: `https://github.com/mughees-asif/dsc-2021.git`
 * Open terminal and navigate to the directory: `cd dsc-2021`
 * Check Node is installed correctly: `node -v` [version number should display]
 * Install **Yarn** [package manager]: `npm install -g yarn`
