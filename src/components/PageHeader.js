@@ -7,7 +7,7 @@ const PageHeader = (props) => {
       <div className="container">
         <ul className="list-unstyled thm-breadcrumb">
           <li>
-            <Link to="ggole">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li className="active">
             <a href="#none">{props.title}</a>
