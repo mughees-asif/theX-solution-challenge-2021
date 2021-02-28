@@ -15,6 +15,6 @@
 * Go to your browser and in the address bar: `http://localhost:8000/` 
 
 <p align="center">
-    <img height=200 src="/dev_flowchart.png">
+    <img height=500 src="/dev_flowchart.png">
 </p>
 
