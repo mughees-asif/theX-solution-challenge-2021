@@ -13,3 +13,8 @@
 * Install **dependencies**: `yarn install` [make sure to be in the same folder as the `package.json` file!!!!]
 * Run development server: `yarn run` OR `gatsby run` [both work]
 * Go to your browser and in the address bar: `http://localhost:8000/` 
+
+<p align="center">
+    <img height=200 src="/dev_flowchart.png">
+</p>
+
