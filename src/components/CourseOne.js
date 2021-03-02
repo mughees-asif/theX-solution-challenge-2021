@@ -51,8 +51,7 @@ const CourseOne = () => {
         <div className="container">
           <div className="block-title mb-0">
             <h2 className="block-title__title">
-              Our
-              Rich Curriculum
+              Courses
             </h2>
           </div>
         </div>
@@ -78,7 +77,7 @@ const CourseOne = () => {
                       by <a href="/teacher-details">Lou Guerrero</a>
                     </div>
                     <h2 className="course-one__title">
-                      <a href="/course-details">New react bootcamp</a>
+                      <a href="/course-details">React</a>
                     </h2>
                     <div className="course-one__stars">
                       <span className="course-one__stars-wrap">
@@ -98,7 +97,6 @@ const CourseOne = () => {
                       <a href="/course-details">
                         <i className="far fa-folder-open"></i> 6 Lectures
                       </a>
-                      <a href="/course-details">$18</a>
                     </div>
                     <a href="#none" className="course-one__link">
                       See Preview
@@ -121,7 +119,7 @@ const CourseOne = () => {
                       by <a href="/teacher-details">Cora Diaz</a>
                     </div>
                     <h2 className="course-one__title">
-                      <a href="/course-details">Improve editing skills</a>
+                      <a href="/course-details">Android</a>
                     </h2>
                     <div className="course-one__stars">
                       <span className="course-one__stars-wrap">
@@ -141,7 +139,6 @@ const CourseOne = () => {
                       <a href="/course-details">
                         <i className="far fa-folder-open"></i> 6 Lectures
                       </a>
-                      <a href="/course-details">$18</a>
                     </div>
                     <a href="#none" className="course-one__link">
                       See Preview
@@ -157,14 +154,14 @@ const CourseOne = () => {
                   </div>
                   <div className="course-one__content">
                     <a href="#none" className="course-one__category">
-                      marketing
+                      It & Software
                     </a>
                     <div className="course-one__admin">
                       <img src={team3} alt="" />
                       by <a href="/teacher-details">Ruth Becker</a>
                     </div>
                     <h2 className="course-one__title">
-                      <a href="/course-details">Marketing strategies</a>
+                      <a href="/course-details">Firebase</a>
                     </h2>
                     <div className="course-one__stars">
                       <span className="course-one__stars-wrap">
@@ -184,7 +181,6 @@ const CourseOne = () => {
                       <a href="/course-details">
                         <i className="far fa-folder-open"></i> 6 Lectures
                       </a>
-                      <a href="/course-details">$18</a>
                     </div>
                     <a href="#none" className="course-one__link">
                       See Preview
@@ -200,14 +196,14 @@ const CourseOne = () => {
                   </div>
                   <div className="course-one__content">
                     <a href="#none" className="course-one__category">
-                      Photography
+                      Web
                     </a>
                     <div className="course-one__admin">
                       <img src={team4} alt="" />
                       by <a href="/teacher-details">Ernest Rodriquez</a>
                     </div>
                     <h2 className="course-one__title">
-                      <a href="/course-details">Basics of photography</a>
+                      <a href="/course-details">Web Fundamentals</a>
                     </h2>
                     <div className="course-one__stars">
                       <span className="course-one__stars-wrap">
@@ -227,7 +223,6 @@ const CourseOne = () => {
                       <a href="/course-details">
                         <i className="far fa-folder-open"></i> 6 Lectures
                       </a>
-                      <a href="/course-details">$18</a>
                     </div>
                     <a href="#none" className="course-one__link">
                       See Preview
@@ -243,14 +238,14 @@ const CourseOne = () => {
                   </div>
                   <div className="course-one__content">
                     <a href="#none" className="course-one__category">
-                      marketing
+                      Machine Learning
                     </a>
                     <div className="course-one__admin">
                       <img src={team5} alt="" />
                       by <a href="/teacher-details">Isabella Stanley</a>
                     </div>
                     <h2 className="course-one__title">
-                      <a href="/course-details">Affiliate bootcamp</a>
+                      <a href="/course-details">TensorFlow</a>
                     </h2>
                     <div className="course-one__stars">
                       <span className="course-one__stars-wrap">
@@ -270,7 +265,6 @@ const CourseOne = () => {
                       <a href="/course-details">
                         <i className="far fa-folder-open"></i> 6 Lectures
                       </a>
-                      <a href="/course-details">$18</a>
                     </div>
                     <a href="#none" className="course-one__link">
                       See Preview
@@ -286,14 +280,14 @@ const CourseOne = () => {
                   </div>
                   <div className="course-one__content">
                     <a href="#none" className="course-one__category">
-                      Health & Fitness
+                      Deployment & Scalability
                     </a>
                     <div className="course-one__admin">
                       <img src={team6} alt="" />
                       by <a href="/teacher-details">Katherine Collins</a>
                     </div>
                     <h2 className="course-one__title">
-                      <a href="/course-details">Healthy workout tips </a>
+                      <a href="/course-details">Google Cloud</a>
                     </h2>
                     <div className="course-one__stars">
                       <span className="course-one__stars-wrap">
@@ -313,7 +307,6 @@ const CourseOne = () => {
                       <a href="/course-details">
                         <i className="far fa-folder-open"></i> 6 Lectures
                       </a>
-                      <a href="/course-details">$18</a>
                     </div>
                     <a href="#none" className="course-one__link">
                       See Preview
@@ -336,7 +329,7 @@ const CourseOne = () => {
                       by <a href="/teacher-details">Lou Guerrero</a>
                     </div>
                     <h2 className="course-one__title">
-                      <a href="/course-details">New react bootcamp</a>
+                      <a href="/course-details">React</a>
                     </h2>
                     <div className="course-one__stars">
                       <span className="course-one__stars-wrap">
@@ -356,7 +349,6 @@ const CourseOne = () => {
                       <a href="/course-details">
                         <i className="far fa-folder-open"></i> 6 Lectures
                       </a>
-                      <a href="/course-details">$18</a>
                     </div>
                     <a href="#none" className="course-one__link">
                       See Preview
@@ -379,7 +371,7 @@ const CourseOne = () => {
                       by <a href="/teacher-details">Cora Diaz</a>
                     </div>
                     <h2 className="course-one__title">
-                      <a href="/course-details">Improve editing skills</a>
+                      <a href="/course-details">Android</a>
                     </h2>
                     <div className="course-one__stars">
                       <span className="course-one__stars-wrap">
@@ -399,7 +391,6 @@ const CourseOne = () => {
                       <a href="/course-details">
                         <i className="far fa-folder-open"></i> 6 Lectures
                       </a>
-                      <a href="/course-details">$18</a>
                     </div>
                     <a href="#none" className="course-one__link">
                       See Preview
@@ -415,14 +406,14 @@ const CourseOne = () => {
                   </div>
                   <div className="course-one__content">
                     <a href="#none" className="course-one__category">
-                      marketing
+                      IT & Software
                     </a>
                     <div className="course-one__admin">
                       <img src={team3} alt="" />
                       by <a href="/teacher-details">Ruth Becker</a>
                     </div>
                     <h2 className="course-one__title">
-                      <a href="/course-details">Marketing strategies</a>
+                      <a href="/course-details">Firebase</a>
                     </h2>
                     <div className="course-one__stars">
                       <span className="course-one__stars-wrap">
@@ -442,7 +433,6 @@ const CourseOne = () => {
                       <a href="/course-details">
                         <i className="far fa-folder-open"></i> 6 Lectures
                       </a>
-                      <a href="/course-details">$18</a>
                     </div>
                     <a href="#none" className="course-one__link">
                       See Preview
