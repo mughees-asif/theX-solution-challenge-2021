@@ -1,9 +1,12 @@
 import React from "react";
 import Swiper from "react-id-swiper";
 import "swiper/css/swiper.css";
-import blogTwo1 from "../assets/images/blog-2-1.jpg";
+import blogTwo1 from "../assets/images/blog-2-1.png";
 import blogTwo2 from "../assets/images/blog-2-2.jpg";
-import blogTwo3 from "../assets/images/blog-2-3.jpg";
+import blogTwo3 from "../assets/images/blog-2-3.png";
+import blogTwo4 from "../assets/images/blog-2-3.jpg";
+import blogTwo5 from "../assets/images/blog-2-4.png";
+import blogTwo6 from "../assets/images/blog-2-5.png";
 
 const BlogTwo = () => {
   const params = {
@@ -42,7 +45,7 @@ const BlogTwo = () => {
       <div className="container">
         <div className="block-title text-center">
           <h2 className="block-title__title">
-            Our latest news <br />& articles
+            Blog
           </h2>
         </div>
         <div className="blog-two__carousel">
@@ -58,12 +61,12 @@ const BlogTwo = () => {
                     Jul
                   </a>
                   <div className="blog-two__meta">
-                    <a href="#none">by Admin</a>
+                    <a href="#none">by John</a>
                     <a href="#none">3 Comments</a>
                   </div>
                   <h3 className="blog-two__title">
                     <a href="news-details.html">
-                      Summer high school journalism camp
+                      Learning to code after custody
                     </a>
                   </h3>
                 </div>
@@ -80,12 +83,12 @@ const BlogTwo = () => {
                     Jul
                   </a>
                   <div className="blog-two__meta">
-                    <a href="#none">by Admin</a>
+                    <a href="#none">by Googler</a>
                     <a href="#none">3 Comments</a>
                   </div>
                   <h3 className="blog-two__title">
                     <a href="news-details.html">
-                      Get a tips to develop a quality education
+                      Thoughts on mentoring an ex-con
                     </a>
                   </h3>
                 </div>
@@ -107,7 +110,7 @@ const BlogTwo = () => {
                   </div>
                   <h3 className="blog-two__title">
                     <a href="news-details.html">
-                      Learn variety of programs and courses
+                      Attending networking events
                     </a>
                   </h3>
                 </div>
@@ -116,7 +119,7 @@ const BlogTwo = () => {
             <div className="item">
               <div
                 className="blog-two__single"
-                style={{ backgroundImage: `url(${blogTwo1})` }}
+                style={{ backgroundImage: `url(${blogTwo4})` }}
               >
                 <div className="blog-two__inner">
                   <a href="news-details.html" className="blog-two__date">
@@ -129,7 +132,7 @@ const BlogTwo = () => {
                   </div>
                   <h3 className="blog-two__title">
                     <a href="news-details.html">
-                      Summer high school journalism camp
+                      Building a strong social media presence
                     </a>
                   </h3>
                 </div>
@@ -138,7 +141,29 @@ const BlogTwo = () => {
             <div className="item">
               <div
                 className="blog-two__single"
-                style={{ backgroundImage: `url(${blogTwo2})` }}
+                style={{ backgroundImage: `url(${blogTwo5})` }}
+              >
+                <div className="blog-two__inner">
+                  <a href="news-details.html" className="blog-two__date">
+                    <span>25</span>
+                    Jul
+                  </a>
+                  <div className="blog-two__meta">
+                    <a href="#none">by Googler</a>
+                    <a href="#none">3 Comments</a>
+                  </div>
+                  <h3 className="blog-two__title">
+                    <a href="news-details.html">
+                      Most in-demand technical skills
+                    </a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div
+                className="blog-two__single"
+                style={{ backgroundImage: `url(${blogTwo6})` }}
               >
                 <div className="blog-two__inner">
                   <a href="news-details.html" className="blog-two__date">
@@ -151,95 +176,7 @@ const BlogTwo = () => {
                   </div>
                   <h3 className="blog-two__title">
                     <a href="news-details.html">
-                      Get a tips to develop a quality education
-                    </a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div
-                className="blog-two__single"
-                style={{ backgroundImage: `url(${blogTwo3})` }}
-              >
-                <div className="blog-two__inner">
-                  <a href="news-details.html" className="blog-two__date">
-                    <span>25</span>
-                    Jul
-                  </a>
-                  <div className="blog-two__meta">
-                    <a href="#none">by Admin</a>
-                    <a href="#none">3 Comments</a>
-                  </div>
-                  <h3 className="blog-two__title">
-                    <a href="news-details.html">
-                      Learn variety of programs and courses
-                    </a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div
-                className="blog-two__single"
-                style={{ backgroundImage: `url(${blogTwo1})` }}
-              >
-                <div className="blog-two__inner">
-                  <a href="news-details.html" className="blog-two__date">
-                    <span>25</span>
-                    Jul
-                  </a>
-                  <div className="blog-two__meta">
-                    <a href="#none">by Admin</a>
-                    <a href="#none">3 Comments</a>
-                  </div>
-                  <h3 className="blog-two__title">
-                    <a href="news-details.html">
-                      Summer high school journalism camp
-                    </a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div
-                className="blog-two__single"
-                style={{ backgroundImage: `url(${blogTwo2})` }}
-              >
-                <div className="blog-two__inner">
-                  <a href="news-details.html" className="blog-two__date">
-                    <span>25</span>
-                    Jul
-                  </a>
-                  <div className="blog-two__meta">
-                    <a href="#none">by Admin</a>
-                    <a href="#none">3 Comments</a>
-                  </div>
-                  <h3 className="blog-two__title">
-                    <a href="news-details.html">
-                      Get a tips to develop a quality education
-                    </a>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div
-                className="blog-two__single"
-                style={{ backgroundImage: `url(${blogTwo3})` }}
-              >
-                <div className="blog-two__inner">
-                  <a href="news-details.html" className="blog-two__date">
-                    <span>25</span>
-                    Jul
-                  </a>
-                  <div className="blog-two__meta">
-                    <a href="#none">by Admin</a>
-                    <a href="#none">3 Comments</a>
-                  </div>
-                  <h3 className="blog-two__title">
-                    <a href="news-details.html">
-                      Learn variety of programs and courses
+                      Higher education?
                     </a>
                   </h3>
                 </div>

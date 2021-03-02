@@ -17,7 +17,7 @@ export default class VideoTwo extends Component {
     return (
       <section className="video-two">
         <div className="container">
-          <img src={strech} className="video-two__scratch" alt="" />
+         <img src={strech} height ={500} className="video-two__scratch" alt="" /> 
           <div className="row">
             <div className="col-lg-7">
               <div className="video-two__content">

@@ -10,8 +10,7 @@ const SubscribeOne = () => {
                             <div className="mailchimp-one__icon">
                                 <i className="kipso-icon-email"></i>
                             </div>
-                            <h2 className="mailchimp-one__title">Get latest courses <br />
-                                updates by signing up</h2>
+                            <h2 className="mailchimp-one__title">Sign up for updates</h2>
                         </div>
                     </div>
                     <div className="col-lg-6 d-flex">

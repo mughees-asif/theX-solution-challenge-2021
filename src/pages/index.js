@@ -16,14 +16,14 @@ import CallToActionFour from "../components/CallToActionFour";
 import SubscribeOne from "../components/SubscribeOne";
 
 const HomePage = () => (
-  <Layout pageTitle="Justice">
+  <Layout pageTitle="theX | Serving Real Justice">
     <Topbar />
     <NavOne />
     <SliderOne />
     <AboutTwo />
     <CourseOne />
-    <VideoTwo />
-    <CountdownKipso />
+    {/* <VideoTwo />
+    <CountdownKipso /> */}
     <CourseCatOne />
     <CallToActionThree />
     <BrandsTwo />

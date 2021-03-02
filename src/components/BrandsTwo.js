@@ -1,6 +1,5 @@
 import React from "react";
 import Swiper from "react-id-swiper";
-import brand1 from "../assets/images/brand-1-1.png";
 import "swiper/css/swiper.css";
 const BrandsTwo = () => {
   const params = {
@@ -34,9 +33,12 @@ const BrandsTwo = () => {
     <section className="brand-two ">
       <div className="container">
         <div className="block-title">
-          <h2 className="block-title__title">Our company & partners</h2>
+          <h2 className="block-title__title">Our Partner</h2>
+          <br />
+          <img width={350} src={"https://egyptinnovate.com/sites/default/files/developers.png"} /> 
         </div>
-        <div className="brand-one__carousel">
+
+        {/* <div className="brand-one__carousel">
           <Swiper {...params}>
             <div className="item">
               <img src={brand1} alt="" />
@@ -69,7 +71,7 @@ const BrandsTwo = () => {
               <img src={brand1} alt="" />
             </div>
           </Swiper>
-        </div>
+        </div> */}
       </div>
     </section>
   );

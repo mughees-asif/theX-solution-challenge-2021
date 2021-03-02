@@ -154,7 +154,9 @@
     }
 
     &__image {
-        float: right;
+        display: flex; 
+        margin-left: auto; 
+        margin-right: auto;
     }
 
     &__content {
@@ -209,7 +211,7 @@
 .cta-four {
     padding-top: 120px;
     padding-bottom: 472px;
-    background-image: url(../images/teacher-1-1.jpg);
+    background-image: url(../images/social-justice.jpg);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
@@ -224,14 +226,15 @@
     &__line {
         position: absolute;
         top: 3%;
-        right: 5%;
+        right: 15%;
     }
 
     &__text {
-        font-size: 18px;
-        color: #81868a;
+        font-size: 50px;
+        color: green;
         line-height: 36px;
         margin: 0;
+        align-content: center;
     }
 
     .block-title {

@@ -78,8 +78,8 @@ class NavOne extends Component {
                 <img
                   src={logo}
                   className="main-logo"
-                  width="50"
-                  alt="Awesome alter text"
+                  width="125"
+                  alt="theX"
                 />
               </Link>
               <div className="header__social">

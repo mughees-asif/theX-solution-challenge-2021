@@ -1,5 +1,5 @@
 import React from "react";
-import footer1 from "../assets/images/footer-1-1.png";
+import footer1 from "../assets/images/footer.jpg";
 import footer2 from "../assets/images/footer-1-2.png";
 import footer3 from "../assets/images/footer-1-3.png";
 import footer4 from "../assets/images/footer-1-4.png";
@@ -18,24 +18,16 @@ const Footer = () => {
             <div className="row">
               <div className="col-xl-3 col-lg-6 col-sm-12">
                 <div className="footer-widget footer-widget__contact">
-                  <h2 className="footer-widget__title">Courses</h2>
+                  <h2 className="footer-widget__title">Resources</h2>
                   <ul className="list-unstyled footer-widget__course-list">
                     <li>
-                      <h2>
-                        <a href="course-details.html">
-                          Introduction Web Design
+                      {/* <h2>
+                        <a href="/">
+                          Recidivism rate
                         </a>
-                      </h2>
-                      <p>Mike Hardson</p>
-                    </li>
-                    <li>
-                      <h2>
-                        <a href="course-details.html">
-                          {" "}
-                          Learning MBA Management{" "}
-                        </a>
-                      </h2>
-                      <p>Jessica Brown</p>
+                      </h2> */}
+                      <p>Central Court System</p>
+                      <p>Probation Service</p>
                     </li>
                   </ul>
                 </div>
@@ -46,7 +38,7 @@ const Footer = () => {
                   <div className="footer-widget__link-wrap">
                     <ul className="list-unstyled footer-widget__link-list">
                       <li>
-                        <a href="#none">About</a>
+                        <a href="#about">About</a>
                       </li>
                       <li>
                         <a href="#none">Overview</a>
@@ -116,15 +108,12 @@ const Footer = () => {
                 <div className="footer-widget footer-widget__about">
                   <h2 className="footer-widget__title">About</h2>
                   <p className="footer-widget__text">
-                    Lorem ipsum dolor sit ametcon, sectetur adipiscing elit.
-                    Phasellus vehic sagittis euismod.
+                  Discussions about inclusion and diversity should not be limited 
+                  to cosmetic variations or binary gender differentiation.
                   </p>
                   <div className="footer-widget__btn-block">
-                    <a href="#none" className="thm-btn">
-                      Contact
-                    </a>
-                    <a href="#none" className="thm-btn">
-                      Purchase
+                      <a href="#none" className="thm-btn">
+                      Learn more
                     </a>
                   </div>
                 </div>
@@ -135,7 +124,7 @@ const Footer = () => {
         <div className="site-footer__bottom">
           <div className="container">
             <p className="site-footer__copy">
-              &copy; Copyright 2020 by <a href="#none">Layerdrops.com</a>
+              &copy; 2021 by<a href="#none">theX.com</a>
             </p>
             <div className="site-footer__social">
               <div

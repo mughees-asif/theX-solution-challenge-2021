@@ -18,7 +18,7 @@ export default class AboutTwo extends Component {
 
   render() {
     return (
-      <section id = "abouttwo" className="about-two">
+      <section id ="abouttwo" className="about-two">
         <div className="container">
           <div className="row">
             <div className="col-xl-6">
@@ -45,7 +45,7 @@ export default class AboutTwo extends Component {
                     </div>
                     <div className="about-two__single-content">
                       <p className="about-two__single-text">
-                        Engage with Googlers as mentors
+                        Engage with Googlers as Mentors
                       </p>
                     </div>
                   </div>
@@ -55,7 +55,7 @@ export default class AboutTwo extends Component {
                     </div>
                     <div className="about-two__single-content">
                       <p className="about-two__single-text">
-                        Track progress Holistically
+                        Track Progress Holistically
                       </p>
                     </div>
                     
@@ -66,13 +66,13 @@ export default class AboutTwo extends Component {
                     </div>
                     <div className="about-two__single-content">
                       <p className="about-two__single-text">
-                        Enhance digital career skills
+                        Enhance Digital Career Skills
                       </p>
                     </div>
                     
                   </div>
                 </div>
-                <a href="#none" className="thm-btn">
+                <a href="#calltoactionthree" className="thm-btn">
                   Still Curious?
                 </a>
               </div>

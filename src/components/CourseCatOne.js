@@ -35,8 +35,7 @@ const CourseCatOne = () => {
       <div className="container-fluid text-center">
         <div className="block-title text-center">
           <h2 className="block-title__title">
-            Browse online <br />
-            course categories
+            Available courses
           </h2>
         </div>
         <div className="course-category-one__carousel">
@@ -47,7 +46,7 @@ const CourseCatOne = () => {
                   <i className="kipso-icon-desktop"></i>
                 </div>
                 <h3 className="course-category-one__title">
-                  <a href="#none">IT & Software</a>
+                  <a href="#none"><b>GCP</b> <br /> Cloud Platform</a>
                 </h3>
               </div>
             </div>
@@ -57,96 +56,82 @@ const CourseCatOne = () => {
                   <i className="kipso-icon-web-programming"></i>
                 </div>
                 <h3 className="course-category-one__title">
-                  <a href="#none">Development</a>
+                  <a href="#none"><b>Flutter</b> <br /> Mobile Development</a>
                 </h3>
               </div>
             </div>
             <div className="item">
               <div className="course-category-one__single color-3">
                 <div className="course-category-one__icon">
-                  <i className="kipso-icon-music-player"></i>
+                  <i className="kipso-icon-training"></i>
                 </div>
                 <h3 className="course-category-one__title">
-                  <a href="#none">Music</a>
+                  <a href="#none"><b>TensorFlow</b> <br /> Machine Learning</a>
                 </h3>
               </div>
             </div>
             <div className="item">
               <div className="course-category-one__single color-4">
                 <div className="course-category-one__icon">
-                  <i className="kipso-icon-camera"></i>
+                  <i className="kipso-icon-magnifying-glass"></i>
                 </div>
                 <h3 className="course-category-one__title">
-                  <a href="#none">Photography</a>
+                  <a href="#none"><b>Firebase</b> <br /> App. Deployment</a>
                 </h3>
               </div>
             </div>
             <div className="item">
               <div className="course-category-one__single color-5">
                 <div className="course-category-one__icon">
-                  <i className="kipso-icon-targeting"></i>
+                  <i className="kipso-icon-professor"></i>
                 </div>
                 <h3 className="course-category-one__title">
-                  <a href="#none">Marketing</a>
+                  <a href="#none"><b>Android</b> <br /> App. Development</a>
                 </h3>
               </div>
             </div>
             <div className="item">
               <div className="course-category-one__single color-6">
                 <div className="course-category-one__icon">
-                  <i className="kipso-icon-health"></i>
+                  <i className="kipso-icon-targeting"></i>
                 </div>
                 <h3 className="course-category-one__title">
-                  <a href="#none">Health & Fitness</a>
+                  <a href="#none"><b>Maps</b> <br /> Location Tools</a>
                 </h3>
               </div>
             </div>
             <div className="item">
               <div className="course-category-one__single color-1">
                 <div className="course-category-one__icon">
-                  <i className="kipso-icon-desktop"></i>
+                  <i className="kipso-icon-manager"></i>
                 </div>
                 <h3 className="course-category-one__title">
-                  <a href="#none">IT & Software</a>
+                  <a href="#none">Website Developer Bootcamp</a>
                 </h3>
               </div>
             </div>
             <div className="item">
               <div className="course-category-one__single color-2">
                 <div className="course-category-one__icon">
-                  <i className="kipso-icon-web-programming"></i>
+                  <i className="kipso-icon-knowledge"></i>
                 </div>
                 <h3 className="course-category-one__title">
-                  <a href="#none">Development</a>
+                  <a href="#none">Machine Learning Bootcamp</a>
                 </h3>
               </div>
             </div>
             <div className="item">
-              <div className="course-category-one__single color-3">
+              <div className="course-category-one__single color-1">
                 <div className="course-category-one__icon">
-                  <i className="kipso-icon-music-player"></i>
+                  <i className="kipso-icon-contact"></i>
                 </div>
                 <h3 className="course-category-one__title">
-                  <a href="#none">Music</a>
-                </h3>
-              </div>
-            </div>
-            <div className="item">
-              <div className="course-category-one__single color-4">
-                <div className="course-category-one__icon">
-                  <i className="kipso-icon-camera"></i>
-                </div>
-                <h3 className="course-category-one__title">
-                  <a href="#none">Photography</a>
+                  <a href="#none">Professional Network Bootcamp</a>
                 </h3>
               </div>
             </div>
           </Swiper>
         </div>
-
-        <a href="#none" className="thm-btn">
-          View All Categories
-        </a>
       </div>
     </section>
   );
