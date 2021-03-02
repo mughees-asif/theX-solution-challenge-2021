@@ -30,12 +30,12 @@ export default class AboutTwo extends Component {
                   </h2>
                 </div>
                 <p className="about-two__text">
-                We are working to solve the crisis of mass incarceration 
-                by offering life-changing access to freelance tech career opportunitues opportunities.
-                We aim to People impacted by the mass incarceration crisis by capitalising on the digital skills gap
-                to teach them google technologies but also strive beyond this by giving paticipants the 
-                necesary soft skills to take on a technical career, as well as the personal advice and support of
-                a Google employee.
+                We are working to solve the mass incarceration crisis by offering
+                 life-changing access to freelance tech career opportunities. We aim to help People
+                  impacted by the mass incarceration crisis by capitalising on the digital skills gap to
+                   teach them google technologies! We're also aiming to delve beyond this by giving participants
+                    the necessary soft skills to take on a technical career, as well as the personal 
+                    advice and support of a Google employee.
                
                 </p>
                 <div className="about-two__single-wrap">
