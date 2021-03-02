@@ -105,7 +105,7 @@ class NavOne extends Component {
                 <li className="current">
                   <Link to="/">Home</Link>
                   <ul className="sub-menu">
-                    <li>
+                    {/* <li>
                       <Link to="/">Home 01</Link>
                     </li>
                     <li>
@@ -127,40 +127,24 @@ class NavOne extends Component {
                           <Link to="/index-3">Header 03</Link>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
-                <li>
-                  <a href="#none">Pages</a>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link to="/about">About Page</Link>
-                    </li>
-                    <li>
-                      <Link to="/gallery">Gallery</Link>
-                    </li>
-                    <li>
-                      <Link to="/pricing">Pricing Plans</Link>
-                    </li>
-                    <li>
-                      <Link to="/faq">FAQ'S</Link>
-                    </li>
-                  </ul>
-                </li>
+
                 <li>
                   <a href="/courses">Courses</a>
-                  <ul className="sub-menu">
+                  {/* <ul className="sub-menu">
                     <li>
                       <Link to="/courses">Courses</Link>
                     </li>
                     <li>
                       <Link to="/course-details">Courses Details</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
-                  <Link to="/teachers">Teachers</Link>
-                  <ul className="sub-menu">
+                  <Link to="/teachers">Mentorship/Networking</Link>
+                  {/* <ul className="sub-menu">
                     <li>
                       <Link to="/teachers">Teachers</Link>
                     </li>
@@ -170,16 +154,16 @@ class NavOne extends Component {
                     <li>
                       <Link to="/become-teacher">Become Teacher</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
-                  <Link to="/news">News</Link>
+                  <Link to="/news">Blog</Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="/news">News Page</Link>
+                      <Link to="/news">Students</Link>
                     </li>
                     <li>
-                      <Link to="/news-details">News Details</Link>
+                      <Link to="/news-details">Teachers</Link>
                     </li>
                   </ul>
                 </li>
@@ -191,8 +175,7 @@ class NavOne extends Component {
             <div className="right-side-box">
               <a
                 className="header__search-btn search-popup__toggler search-toggle"
-                href="#none"
-              >
+                href="#none">
                 <i className="kipso-icon-magnifying-glass"></i>
               </a>
             </div>
