@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import Swiper from "react-id-swiper";
 import "swiper/css/swiper.css";
-import slidestrech from "../assets/images/slider-1-scratch.png";
-import person1 from "../assets/images/slider-1-person-1.png";
-import person2 from "../assets/images/slider-1-person-2.png";
+/* import slidestrech from "../assets/images/slider-1-scratch.png";
+import person1 from "../assets/images/slider-1-person-1.png"; 
+import person2 from "../assets/images/slider-1-person-2.png";*/
+import person2 from "../assets/images/hsmain1.png";
 const SliderOne = () => {
   const [swiper, setSwiper] = useState(null);
 
@@ -21,9 +22,9 @@ const SliderOne = () => {
 
   return (
     <div className="banner-wrapper">
-      <section className="banner-one banner-carousel__one no-dots">
+       <section className="banner-one banner-carousel__one no-dots">
         <Swiper getSwiper={setSwiper}>
-          <div className="banner-one__slide banner-one__slide-one">
+          {/* <div className="banner-one__slide banner-one__slide-one">
             <div className="container">
               <div className="banner-one__bubble-1"></div>
               <div className="banner-one__bubble-2"></div>
@@ -45,25 +46,25 @@ const SliderOne = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="banner-one__slide banner-one__slide-two">
+          </div>  */}
+          <div className="banner-one__slide">
             <div className="container">
               <div className="banner-one__bubble-1"></div>
               <div className="banner-one__bubble-2"></div>
               <div className="banner-one__bubble-3"></div>
-              <img src={slidestrech} alt="" className="banner-one__scratch" />
+              {/* <img src={slidestrech} alt="" className="banner-one__scratch" /> */}
               <img src={person2} className="banner-one__person" alt="" />
               <div className="row no-gutters">
                 <div className="col-xl-12">
                   <h3 className="banner-one__title banner-one__light-color">
-                    We Can <br />
-                    Teach You
+                    Freedom<br/>
+                    
                   </h3>
                   <p className="banner-one__tag-line">
-                    are you ready to learn?
+                    Technical careers for the formerly incarcerated
                   </p>
-                  <a href="#none" className="thm-btn banner-one__btn">
-                    Learn More
+                  <a href="#abouttwo" className="thm-btn banner-one__btn">
+                    How we want to change lives
                   </a>
                 </div>
               </div>
@@ -71,7 +72,7 @@ const SliderOne = () => {
           </div>
         </Swiper>
       </section>
-      <div className="banner-carousel-btn">
+      {/* <div className="banner-carousel-btn">
         <div
           onClick={goPrev}
           onKeyUp={goPrev}
@@ -90,8 +91,8 @@ const SliderOne = () => {
         >
           <i className="kipso-icon-right-arrow"></i>
         </div>
-      </div>
-      <div className="banner-one__cta">
+      </div> */
+      /* <div className="banner-one__cta">
         <div className="banner-one__cta-icon">
           <i className="kipso-icon-black-graduation-cap-tool-of-university-student-for-head"></i>
         </div>
@@ -105,7 +106,7 @@ const SliderOne = () => {
             <i className="kipso-icon-right-arrow"></i>
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

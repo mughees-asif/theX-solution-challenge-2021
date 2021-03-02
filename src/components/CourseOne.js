@@ -51,8 +51,8 @@ const CourseOne = () => {
         <div className="container">
           <div className="block-title mb-0">
             <h2 className="block-title__title">
-              Explore our <br />
-              popular courses
+              Our
+              Rich Curriculum
             </h2>
           </div>
         </div>

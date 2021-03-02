@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
-import about1 from "../assets/images/about-1-1.jpg";
+import about1 from "../assets/images/about-1-2.jpg";
 export default class AboutTwo extends Component {
   constructor() {
     super();
@@ -18,32 +18,47 @@ export default class AboutTwo extends Component {
 
   render() {
     return (
-      <section className="about-two">
+      <section id = "abouttwo" className="about-two">
         <div className="container">
           <div className="row">
             <div className="col-xl-6">
               <div className="about-two__content">
                 <div className="block-title text-left">
                   <h2 className="block-title__title">
-                    Welcome to online <br />
-                    learning center
+                    Fast Tracking Prisoners <br />
+                    Careers and Lives
                   </h2>
                 </div>
                 <p className="about-two__text">
-                  There are many variations of passages of lorem ipsum available
-                  but the majority have suffered alteration in some form by
-                  injected humour or randomised words which don't look.
+                We are working to solve the crisis of mass incarceration 
+                by offering life-changing access to freelance tech career opportunitues opportunities.
+                We aim to People impacted by the mass incarceration crisis by capitalising on the digital skills gap
+                to teach them google technologies but also strive beyond this by giving paticipants the 
+                necesary soft skills to take on a technical career, as well as the personal advice and support of
+                a Google employee.
+               
                 </p>
                 <div className="about-two__single-wrap">
                   <div className="about-two__single">
                     <div className="about-two__single-icon">
-                      <i className="kipso-icon-professor"></i>
+                      <i className="kipso-icon-web-programming"></i>
                     </div>
                     <div className="about-two__single-content">
                       <p className="about-two__single-text">
-                        Start learning from our experts
+                        Engage with Googlers as mentors
                       </p>
                     </div>
+                  </div>
+                  <div className="about-two__single">
+                    <div className="about-two__single-icon">
+                      <i className=" kipso-icon-training"></i>
+                    </div>
+                    <div className="about-two__single-content">
+                      <p className="about-two__single-text">
+                        Track progress Holistically
+                      </p>
+                    </div>
+                    
                   </div>
                   <div className="about-two__single">
                     <div className="about-two__single-icon">
@@ -51,13 +66,14 @@ export default class AboutTwo extends Component {
                     </div>
                     <div className="about-two__single-content">
                       <p className="about-two__single-text">
-                        Enhance your skills with us now
+                        Enhance digital career skills
                       </p>
                     </div>
+                    
                   </div>
                 </div>
                 <a href="#none" className="thm-btn">
-                  Learn More
+                  Still Curious?
                 </a>
               </div>
             </div>
@@ -67,16 +83,18 @@ export default class AboutTwo extends Component {
                 <img src={about1} alt="" />
                 <div className="about-two__count">
                   <div className="about-two__count-text">
-                    Trusted by
+                    Reduce the
                     <span className="counter">
                       <VisibilitySensor
                         onChange={this.onVisibilityChange}
                         offset={{ top: 10 }}
                         delayedCall
                       >
-                        <CountUp end={this.state.startCounter ? 4890 : 0} />
+                        <CountUp suffix = {"%"}end={this.state.startCounter ? 77 : 0} />
                       </VisibilitySensor>
+                      
                     </span>
+                    Rearrest rate
                   </div>
                 </div>
               </div>
