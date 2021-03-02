@@ -11,7 +11,7 @@
 * Install **Gatsby CLI** [command line interface]: `npm install -g gatsby-cli`
 * Check Gatsby is installed correctly: `gatsby -v` [version number should display]
 * Install **dependencies**: `yarn install` [make sure to be in the same folder as the `package.json` file!!!!]
-* Run development server: `yarn run` OR `gatsby run` [both work]
+* Run development server: `yarn dev` OR `gatsby dev` [both work]
 * Go to your browser and in the address bar: `http://localhost:8000/` 
 
 <p align="center">
