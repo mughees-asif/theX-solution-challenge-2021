@@ -386,7 +386,8 @@ a:visited {
 .header-navigation .container .navbar-brand {
     height: auto;
     margin: 0;
-    line-height: 1;
+    line-height: 10;
+
 }
 
 .header-navigation .container .menu-toggler {
@@ -2290,6 +2291,8 @@ a:visited {
 
 .cta-three__image {
     float: right;
+    border-radius: 75%;
+
 }
 
 .cta-three__content {
@@ -2346,12 +2349,13 @@ a:visited {
 }
 
 .cta-four {
-    padding-top: 120px;
+    padding-top: 250px;
     padding-bottom: 472px;
     background-image: url(../images/teacher-1-1.jpg);
     background-repeat: no-repeat;
     background-position: bottom center;
-    background-size: cover;
+    opacity: 0.7;
+    background-size: auto;
     position: relative;
 }
 
@@ -2375,7 +2379,7 @@ a:visited {
 }
 
 .cta-four .block-title {
-    margin-bottom: 35px;
+    margin-bottom: 100px;
 }
 
 .cta-five {
