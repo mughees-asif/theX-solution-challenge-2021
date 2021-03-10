@@ -76,8 +76,8 @@ BlogOverview.defaultProps = {
   smallStats: [
     {
       label: "Posts",
-      value: "2,390",
-      percentage: "4.7%",
+      value: "13",
+      percentage: "2%",
       increase: true,
       chartLabels: [null, null, null, null, null, null, null],
       attrs: { md: "6", sm: "6" },
@@ -86,14 +86,14 @@ BlogOverview.defaultProps = {
           label: "Today",
           fill: "start",
           borderWidth: 1.5,
-          backgroundColor: "rgba(0, 184, 216, 0.1)",
-          borderColor: "rgb(0, 184, 216)",
+          backgroundColor: "rgba(247,146,154, 0.1)",
+          borderColor: "rgb(247,146,154)",
           data: [1, 2, 1, 3, 5, 4, 7]
         }
       ]
     },
     {
-      label: "Pages",
+      label: "Tech Skills",
       value: "182",
       percentage: "12.4",
       increase: true,
@@ -104,15 +104,15 @@ BlogOverview.defaultProps = {
           label: "Today",
           fill: "start",
           borderWidth: 1.5,
-          backgroundColor: "rgba(23,198,113,0.1)",
-          borderColor: "rgb(23,198,113)",
+          backgroundColor: "rgba(38,122,224,0.1)",
+          borderColor: "rgb(38,122,224)",
           data: [1, 2, 3, 3, 3, 4, 4]
         }
       ]
     },
     {
       label: "Comments",
-      value: "8,147",
+      value: "200",
       percentage: "3.8%",
       increase: false,
       decrease: true,
@@ -123,14 +123,14 @@ BlogOverview.defaultProps = {
           label: "Today",
           fill: "start",
           borderWidth: 1.5,
-          backgroundColor: "rgba(255,180,0,0.1)",
-          borderColor: "rgb(255,180,0)",
+          backgroundColor: "rgba(68,199,188,0.1)",
+          borderColor: "rgb(68,199,188)",
           data: [2, 3, 3, 3, 4, 3, 3]
         }
       ]
     },
     {
-      label: "New Customers",
+      label: "Skills Progress",
       value: "29",
       percentage: "2.71%",
       increase: false,
@@ -142,8 +142,8 @@ BlogOverview.defaultProps = {
           label: "Today",
           fill: "start",
           borderWidth: 1.5,
-          backgroundColor: "rgba(255,65,105,0.1)",
-          borderColor: "rgb(255,65,105)",
+          backgroundColor: "rgba(246,108,36,0.1)",
+          borderColor: "rgb(246,108,36)",
           data: [1, 7, 1, 3, 1, 4, 8]
         }
       ]

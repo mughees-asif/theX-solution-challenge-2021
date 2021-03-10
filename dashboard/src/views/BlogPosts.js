@@ -23,25 +23,25 @@ class BlogPosts extends React.Component {
       PostsListOne: [
         {
           backgroundImage: require("../images/content-management/1.jpeg"),
-          category: "Business",
+          category: "Soft Skills",
           categoryTheme: "dark",
           author: "Anna Kunis",
           authorAvatar: require("../images/avatars/1.jpg"),
-          title: "Conduct at an replied removal an amongst",
+          title: "The Importance of networking",
           body:
-            "However venture pursuit he am mr cordial. Forming musical am hearing studied be luckily. But in for determine what would see...",
-          date: "28 February 2019"
+            "When I leave prison, I think networking will be essential for a career. You. likeness aters after can't of. Creepeth....",
+          date: "28 February 2020"
         },
         {
           backgroundImage: require("../images/content-management/2.jpeg"),
-          category: "Travel",
+          category: "Tech Careers",
           categoryTheme: "info",
           author: "James Jamerson",
           authorAvatar: require("../images/avatars/2.jpg"),
-          title: "Off tears are day blind smile alone had ready",
+          title: "The Gig Economy and Freelancing",
           body:
-            "Is at purse tried jokes china ready decay an. Small its shy way had woody downs power. To denoting admitted speaking learning my...",
-          date: "29 February 2019"
+            "Day you're set created kind have let gathering. Greater good creepeth subdue open, he. Winged. Is in waters after waters...",
+          date: "27 March 2019"
         },
         {
           backgroundImage: require("../images/content-management/3.jpeg"),
@@ -49,18 +49,18 @@ class BlogPosts extends React.Component {
           categoryTheme: "royal-blue",
           author: "Jimmy Jackson",
           authorAvatar: require("../images/avatars/2.jpg"),
-          title: "Difficult in delivered extensive at direction",
+          title: "Overcoming Prison Stereotypes in a tech workplace",
           body:
-            "Is at purse tried jokes china ready decay an. Small its shy way had woody downs power. To denoting admitted speaking learning my...",
+            "Own set that bearing. You're they're place open. Over firmament and heaven tree, fifth let itself face appear. They're bring...",
           date: "29 February 2019"
         },
         {
           backgroundImage: require("../images/content-management/4.jpeg"),
-          category: "Business",
+          category: "Soft Skills",
           categoryTheme: "warning",
           author: "John James",
           authorAvatar: require("../images/avatars/3.jpg"),
-          title: "It so numerous if he may outlived disposal",
+          title: "How working from home improves resilience",
           body:
             "How but sons mrs lady when. Her especially are unpleasant out alteration continuing unreserved ready road market resolution...",
           date: "29 February 2019"
@@ -71,24 +71,24 @@ class BlogPosts extends React.Component {
       PostsListTwo: [
         {
           backgroundImage: require("../images/content-management/5.jpeg"),
-          category: "Travel",
+          category: "Tech Careers",
           categoryTheme: "info",
           author: "Anna Ken",
           authorAvatar: require("../images/avatars/0.jpg"),
           title:
-            "Attention he extremity unwilling on otherwise cars backwards yet",
+            "My first day as a tech consultant",
           body:
             "Conviction up partiality as delightful is discovered. Yet jennings resolved disposed exertion you off. Left did fond drew fat head poor jet pan flying over...",
           date: "29 February 2019"
         },
         {
           backgroundImage: require("../images/content-management/6.jpeg"),
-          category: "Business",
+          category: "Soft Skills",
           categoryTheme: "dark",
           author: "John James",
           authorAvatar: require("../images/avatars/1.jpg"),
           title:
-            "Totally words widow one downs few age every seven if miss part by fact",
+            "Team work akes the dream work... Sometimes...",
           body:
             "Discovered had get considered projection who favourable. Necessary up knowledge it tolerably. Unwilling departure education to admitted speaking...",
           date: "29 February 2019"
@@ -100,7 +100,7 @@ class BlogPosts extends React.Component {
         {
           author: "John James",
           authorAvatar: require("../images/avatars/1.jpg"),
-          title: "Had denoting properly jointure which well books beyond",
+          title: "My code resources",
           body:
             "In said to of poor full be post face snug. Introduced imprudence see say unpleasing devonshire acceptance son. Exeter longer wisdom work...",
           date: "29 February 2019"
@@ -186,7 +186,7 @@ class BlogPosts extends React.Component {
       <Container fluid className="main-content-container px-4">
         {/* Page Header */}
         <Row noGutters className="page-header py-4">
-          <PageTitle sm="4" title="Blog Posts" subtitle="Components" className="text-sm-left" />
+          <PageTitle sm="4" title="Blog Posts" subtitle="" className="text-sm-left" />
         </Row>
 
         {/* First Row of Posts */}

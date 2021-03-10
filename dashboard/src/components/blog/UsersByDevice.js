@@ -113,10 +113,10 @@ UsersByDevice.defaultProps = {
         hoverBorderColor: "#ffffff",
         data: [45, 15, 25, 15],
         backgroundColor: [
-          "rgba(255, 99, 71, 1)",
-          "rgba(255, 99, 71, 0.8)",
-          "rgba(255, 99, 71, 0.6)",
-          "rgba(255, 99, 71, 0.4)"
+          "rgba(68,199,188, 1)",
+          "rgba(68,199,188, 0.8)",
+          "rgba(68,199,188, 0.6)",
+          "rgba(68,199,188, 0.4)"
         ]
       }
     ],
