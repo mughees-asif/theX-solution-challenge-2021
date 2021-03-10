@@ -362,7 +362,7 @@ pre {
   padding: 0.4375rem 0.75rem;
   font-size: 0.8125rem;
   line-height: 1.5;
-  color: #495057;
+  color: #e1e5eb;
   background-color: #3d3d3d;
   border: 1px solid #e1e5eb;
   font-weight: 300;
@@ -5077,10 +5077,6 @@ a.text-accent:hover {
   transition: -webkit-transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
-  box-shadow: 0 0.125rem 9.375rem rgba(90, 97, 105, 0.1),
-    0 0.25rem 0.5rem rgba(90, 97, 105, 0.12),
-    0 0.9375rem 1.375rem rgba(90, 97, 105, 0.1),
-    0 0.4375rem 2.1875rem rgba(165, 182, 201, 0.1);
 }
 .main-sidebar.open {
   -webkit-transform: translateX(0);

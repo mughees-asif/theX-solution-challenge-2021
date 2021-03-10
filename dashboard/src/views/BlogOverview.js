@@ -19,8 +19,14 @@ const BlogOverview = ({ smallStats }) => (
 
     {/* Small Stats Blocks */}
     <Row>
+      <Col lg="4" md="6" sm="12" className="mb-4">
+        <UsersByDevice />
+      </Col>
+      <Col lg="4" md="6" sm="12" className="mb-4">
+        <NewDraft />
+      </Col>
+      <Col lg="4" md="6" sm="12" className="mb-4">
       {smallStats.map((stats, idx) => (
-        <Col className="col-lg mb-4" key={idx} {...stats.attrs}>
           <SmallStats
             id={`small-stats-${idx}`}
             variation="0.5"
@@ -31,9 +37,9 @@ const BlogOverview = ({ smallStats }) => (
             percentage={stats.percentage}
             increase={stats.increase}
             decrease={stats.decrease}
-          />
-        </Col>
-      ))}
+          />))}
+
+      </Col>
     </Row>
 
     <Row>
@@ -43,14 +49,11 @@ const BlogOverview = ({ smallStats }) => (
       </Col> */}
 
       {/* Users by Device */}
-      <Col lg="4" md="6" sm="12" className="mb-4">
+      {/*<Col lg="4" md="6" sm="12" className="mb-4">
         <UsersByDevice />
-      </Col>
+      </Col>/*}
 
       {/* New Draft */}
-      <Col lg="4" md="6" sm="12" className="mb-4">
-        <NewDraft />
-      </Col>
 
       {/* Discussions */}
       <Col lg="5" md="12" sm="12" className="mb-4">
