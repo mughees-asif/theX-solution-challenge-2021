@@ -5262,6 +5262,7 @@ a.text-accent:hover {
 }
 .stats-small {
   min-height: 8.7rem;
+  margin-bottom: 1rem;
   overflow: hidden !important;
 }
 .stats-small canvas {
