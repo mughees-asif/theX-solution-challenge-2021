@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Container, Row, Col } from "shards-react";
+import "../shards-dashboard/styles/shards-dashboards.1.1.0.min.css";
 
 import PageTitle from "./../components/common/PageTitle";
 import SmallStats from "./../components/common/SmallStats";
-import UsersOverview from "./../components/blog/UsersOverview";
+// import UsersOverview from "./../components/blog/UsersOverview";
 import UsersByDevice from "./../components/blog/UsersByDevice";
 import NewDraft from "./../components/blog/NewDraft";
 import Discussions from "./../components/blog/Discussions";

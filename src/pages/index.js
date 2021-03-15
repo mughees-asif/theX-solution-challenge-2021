@@ -14,24 +14,70 @@ import BrandsTwo from "../components/BrandsTwo";
 import BlogTwo from "../components/BlogTwo";
 import CallToActionFour from "../components/CallToActionFour";
 import SubscribeOne from "../components/SubscribeOne";
+import SignIn from "../components/SignIn";
+import DefaultLayout from "../layouts/Default";
+import BlogOverview from "../views/BlogOverview";
+import routes from "../routes.js";
+import withTracker from "../withTracker";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams
+} from "react-router-dom";
+
+
 
 const HomePage = () => (
-  <Layout pageTitle="theX | Serving Real Justice">
-    <Topbar />
-    <NavOne />
-    <SliderOne />
-    <AboutTwo />
-    <CourseOne />
-    {/* <VideoTwo />
-    <CountdownKipso /> */}
-    {/* <CourseCatOne /> */}
-    <CallToActionThree />
-    <BrandsTwo />
-    <BlogTwo />
-    <CallToActionFour />
-    <SubscribeOne />
-    <Footer />
-  </Layout>
+  <Router>
+    <Switch>
+      <Layout pageTitle="theX | Serving Real Justice">
+        <Topbar />
+        <NavOne />
+        {/* {routes.map((route, index) => {
+          return (
+            <Route
+              key={index}
+              path={route.path}
+              exact={route.exact}
+              component={withTracker(props => {
+                return (
+                  <route.layout {...props}>
+                    <route.component {...props} />
+                  </route.layout>
+                );
+              })}
+            />
+          );
+        })} */}
+        <Route path="/dashboard">
+          {/* <DefaultLayout component={UsersOverview} /> */}
+          <DefaultLayout>
+            <BlogOverview />
+          </DefaultLayout>
+        </Route>
+        <Route path="/signin">
+          <SignIn />
+        </Route>
+        <Route path="/">
+          <SliderOne />
+          <AboutTwo />
+          <CourseOne />
+          {/* <VideoTwo />
+          <CountdownKipso /> */}
+          {/* <CourseCatOne /> */}
+          <CallToActionThree />
+          <BrandsTwo />
+          <BlogTwo />
+          <CallToActionFour />
+          <SubscribeOne />
+        </Route>
+        <Footer />
+      </Layout>
+    </Switch>
+  </Router>
 );
 
 export default HomePage;
