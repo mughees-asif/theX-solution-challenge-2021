@@ -34,8 +34,6 @@ const HomePage = () => (
   <Router>
     <Switch>
       <Layout pageTitle="theX | Serving Real Justice">
-        <Topbar />
-        <NavOne />
         {/* {routes.map((route, index) => {
           return (
             <Route
@@ -59,9 +57,14 @@ const HomePage = () => (
           </DefaultLayout>
         </Route>
         <Route path="/signin">
+          <Topbar />
+          <NavOne />
           <SignIn />
+          <Footer />
         </Route>
-        <Route path="/">
+        <Route exact path="/">
+          <Topbar />
+          <NavOne />
           <SliderOne />
           <AboutTwo />
           <CourseOne />
@@ -73,8 +76,8 @@ const HomePage = () => (
           <BlogTwo />
           <CallToActionFour />
           <SubscribeOne />
+          <Footer />
         </Route>
-        <Footer />
       </Layout>
     </Switch>
   </Router>
