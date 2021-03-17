@@ -116,7 +116,7 @@ const SignIn = () => {
           /><br />
           </form>
           <div>
-            <Link to="/dashboard" style={{width: '100%', background: '#60c8bf', border: '0', padding: '12px 329px', color: 'white'}}>{/*<button style={{width: '100%', background: '#60c8bf', border: '0'}}
+            <Link to="/blog-overview" style={{width: '100%', background: '#60c8bf', border: '0', padding: '12px 329px', color: 'white'}}>{/*<button style={{width: '100%', background: '#60c8bf', border: '0'}}
             className="bg-green-400 hover:bg-green-500 w-full py-2 text-white"
             onClick={event => {
               createUserWithEmailAndPasswordHandler(event, email, password);

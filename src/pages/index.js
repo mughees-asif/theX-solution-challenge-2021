@@ -17,6 +17,7 @@ import SubscribeOne from "../components/SubscribeOne";
 import SignIn from "../components/SignIn";
 import DefaultLayout from "../layouts/Default";
 import BlogOverview from "../views/BlogOverview";
+import BlogPosts from "../views/BlogPosts";
 import routes from "../routes.js";
 import withTracker from "../withTracker";
 import {
@@ -50,8 +51,12 @@ const HomePage = () => (
             />
           );
         })} */}
-        <Route path="/dashboard">
-          {/* <DefaultLayout component={UsersOverview} /> */}
+        <Route path="/blog-posts">
+          <DefaultLayout>
+            <BlogPosts />
+          </DefaultLayout>
+        </Route>
+        <Route path="/blog-overview">
           <DefaultLayout>
             <BlogOverview />
           </DefaultLayout>

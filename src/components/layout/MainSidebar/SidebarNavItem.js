@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { BrowserRouter as Router, NavLink as RouteNavLink } from "react-router-dom";
+import { BrowserRouter as Router, NavLink as RouteNavLink, Link } from "react-router-dom";
 import { NavItem, NavLink } from "shards-react";
 
 const SidebarNavItem = ({ item }) => (
-  <Router>
+  <Link to="/blog-posts">
+  {/* <Router> */}
     <NavItem>
       <NavLink tag={RouteNavLink} to={item.to}>
         {item.htmlBefore && (
@@ -22,7 +23,8 @@ const SidebarNavItem = ({ item }) => (
         )}
       </NavLink>
     </NavItem>
-  </Router>
+  {/* </Router> */}
+  </Link>
 );
 
 SidebarNavItem.propTypes = {
