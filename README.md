@@ -1,7 +1,15 @@
-# DSC-2021 Solution Challenge
+# theX - Solution Challenge 2021
+
+<p align="center">
+    <img height=450 src="/src/assest/images/WebsiteLogo.png">
+</p>
+
+## Introduction
+<p align="center">
+    <img height=450 src="/src/assest/images/intro.jpg">
+</p>
 
 ## Installation Guide [WINDOWS]
-
 * Install **[Node.js](https://nodejs.org/en/download/)** 
 * Clone the repository to your local machine: `https://github.com/mughees-asif/dsc-2021.git`
 * Open terminal and navigate to the directory: `cd dsc-2021`
@@ -14,7 +22,7 @@
 * Run development server: `yarn dev` OR `gatsby dev` [both work]
 * Go to your browser and in the address bar: `http://localhost:8000/` 
 
+## Architecture overview
 <p align="center">
-    <img height=500 src="/dev_flowchart.png">
+    <img height=450 src="/dev_flowchart.png">
 </p>
-
