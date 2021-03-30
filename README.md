@@ -1,9 +1,9 @@
 # theX - Serving Real Justice
 <p align="center">
-    <img height=50 src="./images/WebsiteLogo.png">
+    <img height=150 src="./images/WebsiteLogo.png">
 </p>
 
-## The life of Malcolm X. 
+## The life of Malcolm X
 <p align="center">
     <img height=450 src="./images/intro.jpg">
 </p>
