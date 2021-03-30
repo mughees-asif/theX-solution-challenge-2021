@@ -1,15 +1,13 @@
 # theX - Serving Real Justice
 <p align="center">
-    <img height=450 src="./src/assest/images/WebsiteLogo.png">
+    <img height=450 src="./images/WebsiteLogo.png">
 </p>
 
 ## The life of Malcolm X. 
 <p align="center">
-    <img height=450 src="./src/assest/images/intro.jpg">
+    <img height=450 src="./imagest/intro.jpg">
 </p>
-[//]: # (This is a comment.)
-[//]: # (This is a comment on a new line.)
-
+>
 
 ## Installation Guide [WINDOWS]
 * Install **[Node.js](https://nodejs.org/en/download/)** 
@@ -26,5 +24,5 @@
 
 ## Architecture overview
 <p align="center">
-    <img height=450 src="./dev_flowchart.png">
+    <img height=450 src="./images/dev_flowchart.png">
 </p>
