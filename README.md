@@ -20,9 +20,9 @@ As part of the **[Solution Challenge 2021](https://developers.google.com/communi
 
 We want to educate and equip individuals with a criminal record with the necessary skills needed to work professionally in the technology industry, and to develop their professional network that will allow them to reintegrate back into society. It is unfair to marginalise individuals who were surrounded with a constellation of bad choices throughout their formative years leading to social segregation and ostracization.
 
-After being released from prison, one has to keep declaring one's criminal record for 7 years after the license period ends. How is this fair? By handicapping them so every employer who does a background check immediately infers that the individual was born a criminal? Why is the system like this? Why is no one talking about this? What is happening to the 11 million in the U.K. with a criminal record? Where is all the money coming from to keep individuals in cages, but not to invest in their area or education? Is justice really blind? 
+After being released from prison, one has to keep declaring one's criminal record for 7 years after the license period ends. How is this fair? By handicapping them so every employer who does a background check immediately infers that the individual was a born criminal? Why is the system like this? Why is no one talking about this? What is happening to the 11 million people in the U.K. with a criminal record? Where is all the money coming from to keep individuals in cages, but not to invest in their area or education? Is justice really blind? 
 
-These are tough questions with no certain answer. Yet, we believe the first step is to highlight this issue and atleast have an open dialogue about it. No more muted responses or obtuse arguments about contestable moral turpitude. The UK has a tremendous tech. skills shortage and we aim to build a bridge between curtailing it and the reoffending rate. 
+These are tough questions with no certain answer. Yet, we believe the first step is to highlight this issue and atleast have an open dialogue about it. No more muted responses or obtuse arguments about contestable moral turpitude. The UK has a tremendous tech. skills shortage and we aim to curtail it whilst decreasing the reoffending rate. 
 
 ## Statistics 
 
