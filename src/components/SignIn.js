@@ -78,7 +78,7 @@ const SignIn = () => {
           </div>
         )}
         <form className="">
-          <label style={{width: '100%', border: '0', margin: '0'}} htmlFor="displayName" className="block">
+          {/* <label style={{width: '100%', border: '0', margin: '0'}} htmlFor="displayName" className="block">
             Display Name:
           </label>
           <input style={{width: '100%', border: '1'}} 
@@ -89,7 +89,7 @@ const SignIn = () => {
             placeholder="Your Name"
             id="displayName"
             onChange={event => onChangeHandler(event)}
-          />
+          /> */}
           <label style={{width: '100%',  margin: '0'}} htmlFor="userEmail" className="block">
             Email:
           </label>
@@ -132,9 +132,9 @@ const SignIn = () => {
           Sign In with Google
         </button>
         <p className="text-center my-3">
-          Already have an account?{" "}
+          Want in?{" "}
           <Link to="/" className="text-blue-500 hover:text-blue-600">
-            Sign in here
+            Sign up here
           </Link>
         </p>
       </div>

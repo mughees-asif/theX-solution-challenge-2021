@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "chart": "^0.1.2",
+    "chart.js": "^2.9.4",
     "firebase": "^8.2.10",
     "firebaseui": "^4.7.3",
     "flux": "^4.0.1",
