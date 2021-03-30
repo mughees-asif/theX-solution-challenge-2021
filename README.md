@@ -32,7 +32,7 @@ These are tough questions with no certain answer. Yet, we believe the first step
 
 * 47% of adults are reconvicted within one year of being released from prison. For petty offenders, serving sentences of less than 12 months, this increases to 60%. For children and young people in custody the rate of reoffending rises to 75%. Reoffending by ex-prisoners’ costs society at least £11bn per year. The cost per prisoner per year is £41,000. 
 
-### Tech shortage
+### Tech. shortage
 
 * 70% of employers anticipate a shortage, with almost a quarter (24%) expecting it to greatly impact their recruitment.
 * According to CTOs, Cyber Security (56%), BI & Data Management (41%) and Software Development (35%) are the most sought after skills this year.
