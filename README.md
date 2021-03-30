@@ -1,11 +1,11 @@
 # theX - Serving Real Justice
 <p align="center">
-    <img height=450 src="./images/WebsiteLogo.png">
+    <img height=200 src="./images/WebsiteLogo.png">
 </p>
 
 ## The life of Malcolm X. 
 <p align="center">
-    <img height=450 src="./imagest/intro.jpg">
+    <img height=450 src="./images/intro.jpg">
 </p>
 >
 
