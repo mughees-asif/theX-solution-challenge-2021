@@ -20,15 +20,17 @@ As part of the **[Solution Challenge 2021](https://developers.google.com/communi
 
 We want to educate and equip individuals with a criminal record with the necessary skills needed to work professionally in the technology industry, and to develop their professional network that will allow them to reintegrate back into society. It is unfair to marginalise individuals who were surrounded with a constellation of bad choices throughout their formative years leading to social segregation and ostracization.
 
-After being released from prison, one has to keep declaring one's criminal record for 7 years after the license period ends. How is this fair? By handicapping them so every employer who does a background check immediately infers that the individual was born a criminal? Why is the system like this? Why is no one talking about this? What is happening to the 11 million in the U.K. with a criminal record? Is justice really blind?
+After being released from prison, one has to keep declaring one's criminal record for 7 years after the license period ends. How is this fair? By handicapping them so every employer who does a background check immediately infers that the individual was born a criminal? Why is the system like this? Why is no one talking about this? What is happening to the 11 million in the U.K. with a criminal record? Where is all the money coming from to keep individuals in cages, but not to invest in their area or education? Is justice really blind? 
+
+These are tough questions with no certain answer. Yet, we believe the first step is to highlight this issue and atleast have an open dialogue about it. No more muted responses or obtuse arguments about contestable moral turpitude. The UK has a tremendous tech. skills shortage and we aim to build a bridge between curtailing it and the reoffending rate. 
 
 ## Statistics 
 
 ### Prison
 
-* Prison numbers in England and Wales have increased by *84%* since 1990, from 44,975 to just under 83,000 today. The overall cost of the criminal justice system has risen from 2% of GDP to 2.5% over the last 10 years. That is a higher per capita level than the US or any EU country. Each new prison place now costs £170,000 over the life of the accommodation. The cost per prisoner per year is £41,000. 
+* Prison numbers in England and Wales have increased by 84% since 1990, from 44,975 to just under 83,000 today. The overall cost of the criminal justice system has risen from 2% of GDP to 2.5% over the last 10 years. That is a higher per capita level than the US or any EU country. Each new prison place now costs £170,000 over the life of the accommodation. The cost per prisoner per year is £41,000. 
 
-* *47%* of adults are reconvicted within one year of being released from prison. For petty offenders, serving sentences of less than 12 months, this increases to 60%. For children and young people in custody the rate of reoffending rises to *75%*. Reoffending by ex-prisoners’ costs society at least £11bn per year. The cost per prisoner per year is £41,000. 
+* 47% of adults are reconvicted within one year of being released from prison. For petty offenders, serving sentences of less than 12 months, this increases to 60%. For children and young people in custody the rate of reoffending rises to 75%. Reoffending by ex-prisoners’ costs society at least £11bn per year. The cost per prisoner per year is £41,000. 
 
 ### Tech shortage
 
@@ -37,8 +39,6 @@ After being released from prison, one has to keep declaring one's criminal recor
 * Two-thirds (36%) of technology hiring managers believe the recruitment process takes too long.
 * Nearly 8 in 10 technology candidates search for their next opportunity on online job boards.
 * More than half of employers find candidates lack the right technical skills necessary for technology positions.
-
-It is unfair to marginalise individuals who were surrounded with the 
 
 ## Installation Guide [WINDOWS]
 * Install **[Node.js](https://nodejs.org/en/download/)** 
@@ -57,3 +57,10 @@ It is unfair to marginalise individuals who were surrounded with the
 <p align="center">
     <img height=500 src="./images/dev_flowchart.png">
 </p>
+
+## Developers
+
+* Shannon Francis
+* Pedro Camara
+* Vigna Kumar
+* Mughees Asif
