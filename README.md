@@ -60,7 +60,7 @@ These are tough questions with no certain answer. Yet, we believe the first step
 
 ## Developers
 
-* Shannon Francis
+* Shannon Francis - [2<sup>nd</sup> Year Computer Science Student
 * Pedro Camara
 * Vigna Kumar
 * Mughees Asif
