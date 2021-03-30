@@ -60,7 +60,7 @@ These are tough questions with no certain answer. Yet, we believe the first step
 
 ## Developers
 
-* Shannon Francis - [2<sup>nd</sup> Year Computer Science Student
-* Pedro Camara
-* Vigna Kumar
-* Mughees Asif
+* Shannon Francis - 2<sup>nd</sup> Year Computer Science 
+* Pedro Camara - 2<sup>nd</sup> Year Computer Science
+* Vigna Kumar - 3<sup>rd</sup> Year Computer Science
+* Mughees Asif - 3<sup>rd</sup> Year Aerospace Engineering
