@@ -18,7 +18,9 @@
 
 As part of the **[Solution Challenge 2021](https://developers.google.com/community/dsc-solution-challenge)** hosted by the **[Google Developer Student Club (GDSC) community](https://developers.google.com/community/dsc)**, the GDSC team from **[Queen Mary, University of London](https://dsc.community.dev/queen-mary-university-of-london/)** want to help break the serpentine gyration of poverty, crime and punishment. 
 
-We want to educate and equip individuals with a criminal record with the necessary skills needed to work professionally in the technology industry, and to develop their professional network that will allow them to reintegrate back into society. It is unfair to marginalise individuals who were surrounded with a constellation of bad choices throughout their formative years leading to social segregation and ostracization.
+We want to educate and equip individuals with a criminal record with the necessary skills needed to work professionally in the technology industry, and to develop their professional network that will allow them to reintegrate back into society. It is unfair to marginalise individuals who were surrounded with a constellation of bad choices throughout their formative years culminating in criminal records, and on top of that the criminal justice then perpetuates the social segregation and ostracization by making them declare their mistakes to future employers via a background criminal record check.
+
+Ask yourself, what you would have done if any path you took led to breaking the law, especially in your teenage years? 
 
 After being released from prison, one has to keep declaring one's criminal record for 7 years after the license period ends. How is this fair? By handicapping them so every employer who does a background check immediately infers that the individual was a born criminal? Why is the system like this? Why is no one talking about this? What is happening to the 11 million people in the U.K. with a criminal record? Where is all the money coming from to keep individuals in cages, but not to invest in their area or education? Is justice really blind? 
 
